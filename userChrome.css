@@ -22,3 +22,8 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 .titlebar-buttonbox {
   margin-inline: 12px 15px !important;
 }
+
+/* rounded edges on buttons */
+:root {
+  --toolbarbutton-border-radius: 6px !important;
+}
