@@ -1,7 +1,6 @@
 /* add padding to bookmarks bar */
 toolbarbutton.bookmark-item:not(.subviewbutton) {
-  padding-block: 8px !important;
-  padding-inline: 6px !important;
+  padding: 8px 7px !important;
 }
 
 /* prevent the browser setting a height to the bookmarks bar */
@@ -14,7 +13,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   display: none !important;
 }
 
-/* remove tabbar spacer and */
+/* remove tabbar spacer */
 .titlebar-spacer[type="pre-tabs"] {
   display: none;
 }
