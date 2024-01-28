@@ -1,0 +1,25 @@
+/* add padding to bookmarks bar */
+toolbarbutton.bookmark-item:not(.subviewbutton) {
+  padding-block: 8px !important;
+  padding-inline: 6px !important;
+}
+
+/* prevent the browser setting a height to the bookmarks bar */
+:root[BookmarksToolbarOverlapsBrowser] #PersonalToolbar {
+  height: initial !important;
+}
+
+/* remove all tabs button */
+#alltabs-button {
+  display: none !important;
+}
+
+/* remove tabbar spacer and */
+.titlebar-spacer[type="pre-tabs"] {
+  display: none;
+}
+
+/* add padding to the right side of the window buttons */
+.titlebar-buttonbox {
+  margin-inline: 12px 15px !important;
+}
