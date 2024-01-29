@@ -10,7 +10,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 
 /* add margin to right right of all tabs button and change border radius to match */
 #alltabs-button {
-  margin-right: 2px !important;
+  margin-right: 4px !important;
   --tab-border-radius: 7px;
 }
 
