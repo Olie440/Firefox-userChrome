@@ -27,5 +27,5 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 
 /* rounded edges on buttons */
 :root {
-  --toolbarbutton-border-radius: 7px !important;
+  --toolbarbutton-border-radius: 6px !important;
 }
