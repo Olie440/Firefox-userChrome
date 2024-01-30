@@ -4,7 +4,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 }
 
 #PlacesToolbar {
-  padding-block: 1px;
+  padding-block: 2px;
 }
 
 /* prevent the browser setting a height to the bookmarks bar, also add padding */
@@ -24,9 +24,10 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   display: none;
 }
 
-/* add margin to the left side of the window buttons */
+/* align the window buttons correctly */
 .titlebar-buttonbox {
-  margin-inline: 12px 15px !important;
+  margin-inline: 1.5em !important;
+  margin-top: 2px !important;
 }
 
 /* rounded edges on buttons */
