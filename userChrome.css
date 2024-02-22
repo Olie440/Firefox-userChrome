@@ -1,6 +1,6 @@
 /* add padding to bookmarks bar */
 toolbarbutton.bookmark-item:not(.subviewbutton) {
-  padding: 8px 7px !important;
+  padding: 7px !important;
 }
 
 #PlacesToolbar {
