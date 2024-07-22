@@ -7,7 +7,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   padding-block: 2px;
 }
 
-/* prevent the browser setting a height to the bookmarks bar, also add padding */
+/* prevent the browser setting a height to the bookmarks bar */
 :root[BookmarksToolbarOverlapsBrowser] #PersonalToolbar {
   height: initial !important;
 }
